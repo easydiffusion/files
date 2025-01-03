@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="vue.global.prod.js"></script>
+<script src="vue3-sfc-loader.js"></script>
+<script src="vue-config.js"></script>
+<script src="data.js"></script>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+}
+</style>
+</head>
+<body>
+<div id="app">
+    <Shell></Shell>
+</div>
+<script>
+const app = createApp()
+app.provide('config', ed.config)
+app.provide('data', ed.data)
+
+app.component('Shell', getComponentDefinition('./shell.vue'))
+
+app.mount("#app")
+</script>
+</body>
+</html>
