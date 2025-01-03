@@ -4,6 +4,8 @@ This repo is meant for the developers and designers on this project. This repo i
 
 ## UI Mockups for Easy Diffusion 4 (work-in-progress)
 
+Prototype: [here](ED4-ui-design/prototype)
+
 ### Desktop UI
 ![ED4_mockup_desktop](https://github.com/user-attachments/assets/09ebeb47-3b7a-4e9a-86e8-ee0cb9e1fe13)
 
